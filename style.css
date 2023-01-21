@@ -13,9 +13,17 @@ nav ul li a{
 
 
 @media screen and (max-width: 668px) {
-    .banner{
+    .banner , .asked{
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+    .footer{
+    flex-direction:  column-reverse;
+
+    }
+    .footer img{
+        width: 100px;
+        
     }
 }
